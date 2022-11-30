@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="calculator.css">
     <title>Currency calculator</title>
 </head>
-<body>
-    <img src="logo.jpg" id="logo">
+<div>
+    <img src="logo.jpg" id="logo" />
     <h3>Currency exchange calculator</h3>
 
     <p>Choose two currencies from the list that you want to get the exchange rate of: </p>
-    <br>
+    
 
-    <div class="container">
-        <div class="currency">
+<div class="container">
+    <div class="currency">
 
-    <select id="currency-one">
+        <select id="currency-one">
           <option value="AED">AED</option>
           <option value="ARS">ARS</option>
           <option value="AUD">AUD</option>
@@ -147,9 +147,11 @@
           <option value="VND">VND</option>
           <option value="ZAR">ZAR</option>
     </select>
+
     <input type="number" id="amount-one" placeholder="0" value="1">
     </div>
-    
+</div> 
+
     <script src="calculator.js"></script>
 </body>
 </html>
