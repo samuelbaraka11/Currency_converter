@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #eab676;
+    --primary-color: #21130d;
 
 }
 
@@ -38,9 +38,11 @@ p{
     padding: 5px 12px;
 }
 
-#logo{
+/* #logo{
     width: 150px;
-}
+    height: 150px;
+    margin: 0 auto; 
+} */
 
 .currency{
     padding: 40px 0;
